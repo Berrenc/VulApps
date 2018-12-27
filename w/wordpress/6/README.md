@@ -113,5 +113,6 @@ wp-submit=Get+New+Password&redirect_to=&user_login=admin
 
 * [WordPress Core 4.6 - Unauthenticated Remote Code Execution (RCE) PoC Exploit](https://exploitbox.io/vuln/WordPress-Exploit-4-6-RCE-CODE-EXEC-CVE-2016-10033.html)
 
-###Berrenc笔记
-这个漏洞的利用比较苛刻，经测试，远程新建文件，远程下载文件至本地没有问题，但是不能通过echo远程写文件，或者直接进行反弹shell
+### Berrenc笔记
+
+这个漏洞的利用比较苛刻，经测试，远程新建文件，远程下载文件至本地没有问题，但是不能通过echo远程写文件，或者直接进行反弹shell，远程下载文件只能使用http协议80端口
